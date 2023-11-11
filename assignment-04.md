@@ -35,15 +35,12 @@ You get tired of Geometrica and travel to the nearby town of Fortuito. While For
   have an optimal substructure property. State and prove this
   property.
 
-**enter answer in `answers.md`**
-
 
 **2c)** Use this optimal substructure property to design a
   dynamic programming algorithm for this problem. If you used top-down
   or bottom-up memoization to avoid recomputing solutions to
   subproblems, what is the work and span of your approach?
 
-**enter answer in `answers.md`**
 
 
 ## Part 3: Edit Distance
@@ -53,9 +50,7 @@ Distance** problem. This allowed us to implement a simple recursive
 algorithm in Python that was horribly inefficient.
 
 
-**3a)** The code for `MED` from the lecture notes is provided as a
-  starting point in `main.py.` Now implement `fast_MED`, a **top-down**
-  memoized version of `MED`. Test your implementation code using `test_MED`.
+**3a)** The code for `MED` from the lecture notes is provided as a starting point in `main.py.` Now implement `fast_MED`, a **top-down** memoized version of `MED`. Test your implementation code using `test_MED`.
 
 
 **3b)** Now that you have implemented an efficient algorithm for
