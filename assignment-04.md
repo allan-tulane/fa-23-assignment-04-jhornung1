@@ -9,50 +9,26 @@ All coding portions should go in `main.py` as usual.
 
 ## Part 1: Making Change
 
-The pandemic is over and you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to
-exchange $N$ dollars for local currency. In Geometrica they have a
-currency that is 1-1 with U.S. Dollars, but they only have
-coins. Moreover the coins are in
-denominations of powers of $2$ (e.g., $k$ denominations of values $2^0$, $2^1$, \ldots,
-$2^k$). You wonder why they have
-such strange denominations. You think about it a while, and because
-you had such a good Algorithms instructor, you realize that there is a
-very clever reason. 
+The pandemic is over and you decide to take a much needed vacation. You arrive in a city called Geometrica, and head to the bank to exchange $N$ dollars for local currency. In Geometrica they have a currency that is 1-1 with U.S. Dollars, but they only have coins. Moreover the coins are in denominations of powers of $2$ (e.g., $k$ denominations of values $2^0$, $2^1$, \ldots, $2^k$). You wonder why they have such strange denominations. You think about it a while, and because you had such a good Algorithms instructor, you realize that there is a very clever reason. 
 
-**1a)** Given a $N$ dollars, state a greedy algorithm for producing
-as few coins as possible that sum to $N$.
-
-**enter answer in `answers.md`**
+**1a)** Given a $N$ dollars, state a greedy algorithm for producing as few coins as possible that sum to $N$.
 
 
-**1b)** Prove that this algorithm is optimal by proving the greedy
-  choice and optimal substructure properties.
-
-**enter answer in `answers.md`**
+**1b)** Prove that this algorithm is optimal by proving the greedy choice and optimal substructure properties.
 
 
 **1c)** What is the work and span of your algorithm?
 
-**enter answer in `answers.md`**
 
 
 ## Part 2: Making Change Again
 
-You get tired of Geometrica and travel to the nearby town of
-Fortuito. While Fortuito also has a 1-1 exchange rate to the US
-Dollar, it has an even stranger system of currency where any given bank
-has a completely arbitrary set of denominations ($k$ denominations of
-values $D_0, D_2, \ldots, D_k$). There is no guarantee that you can
-even make change. So you wonder, given $N$ dollars is it possible to
-even make change? If so, how can it be done with as few coins as
-possible?
+You get tired of Geometrica and travel to the nearby town of Fortuito. While Fortuito also has a 1-1 exchange rate to the US Dollar, it has an even stranger system of currency where any given bank has a completely arbitrary set of denominations ($k$ denominations of values $D_0, D_2, \ldots, D_k$). There is no guarantee that you can even make change. So you wonder, given $N$ dollars is it possible to even make change? If so, how can it be done with as few coins as possible?
 
 **2a)** You realize the greedy algorithm you devised above doesn't
   work in Fortuito. Give a simple counterexample that shows that the
   greedy algorithm does not produce the fewest number of coins.
   
-**enter answer in `answers.md`**
-
 
 **2b)** Since you paid attention in Algorithms class, you realize that
   while this problem does not have the greedy choice property it does
